@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "tw-animate-css";
+@custom-variant dark (&:is(.dark *));
+
+body {
+  position: relative;
+  min-height: 100vh;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.invoice-cta {
+  height: 100vh;
+  background-image: url("/images/temp4.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
