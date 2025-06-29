@@ -1,7 +1,5 @@
-// app/layout.js
 import { Inter } from 'next/font/google';
 import '../styles/main.css';
-import { AuthProvider } from '@/lib/authContext';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -11,21 +9,19 @@ const interFont = Inter({
 });
 
 export const metadata = {
-  title: "Invoicer App",
-  description: "Generate and manage invoices effortlessly.",
+  title: "Invoicer App - Static Invoice Generator",
+  description: "Generate professional invoices locally in your browser.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${interFont.variable} antialiased`}>
-        <AuthProvider>
-          <Navbar/>
-          <div className="mt-16">
-            {children}
-          </div>
-          <Footer />
-        </AuthProvider>
+        <Navbar/>
+        <div className="mt-16">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );
