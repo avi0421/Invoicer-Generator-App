@@ -18,7 +18,7 @@ A modern Next.js web application for creating and managing professional invoices
 
 - **Next.js 14+** - React framework
 - **MongoDB Atlas** - Cloud database
-- **Mongoose** - MongoDB ODM
+- **MongoDB Node.js Driver** – Direct access to MongoDB without ODM
 - **NextAuth.js** - Authentication
 - **Tailwind CSS** - Styling
 - **React Hook Form** - Form handling
