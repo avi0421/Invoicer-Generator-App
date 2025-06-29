@@ -8,9 +8,9 @@ A modern Next.js web application for creating and managing professional invoices
 - **Professional Invoice Creation** - Generate clean, professional-looking invoices
 - **Client Management** - Store and manage client information per user
 - **Tax Calculations** - Automatic tax calculations with customizable rates
-- **PDF Export** - Export invoices as PDF documents
+- **PDF Export** - Print invoices as PDF documents
 - **Invoice Templates** - Multiple professional templates to choose from
-- **Invoice Tracking** - Track paid/unpaid status and due dates
+- **Invoice Tracking** - Track due dates
 - **Cloud Storage** - Secure data storage with MongoDB Atlas
 - **Responsive Design** - Works on desktop and mobile devices
 
